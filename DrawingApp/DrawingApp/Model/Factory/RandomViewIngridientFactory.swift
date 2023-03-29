@@ -56,5 +56,9 @@ final class RandomViewIngridientFactory: ViewIngridientFactory {
     }
     
     func makeAlpha() -> Alpha {
+        let minAlphaLevel = 0
+        let maxAlphaLevel = 10
+        
+        return Alpha(level: Int.random(in: minAlphaLevel...maxAlphaLevel))
     }
 }
