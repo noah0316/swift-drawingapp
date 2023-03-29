@@ -10,3 +10,9 @@ import Foundation
 struct Alpha {
     var level: Int
 }
+
+extension Alpha: CustomStringConvertible {
+    var description: String {
+        return "Alpha: \(self.level)"
+    }
+}
