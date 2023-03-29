@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol ViewRepresentable {
+protocol ViewRepresentable: CustomStringConvertible {
     var frame: Frame { get set }
     var color: Color { get set }
     var alpha: Alpha { get set }
