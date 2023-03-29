@@ -18,6 +18,7 @@
 		4F7BFCE729D4154700AB1000 /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCE629D4154700AB1000 /* Identifier.swift */; };
 		4F7BFCEA29D4156200AB1000 /* ViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCE929D4156200AB1000 /* ViewRepresentable.swift */; };
 		4F7BFCEC29D4158B00AB1000 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCEB29D4158B00AB1000 /* Frame.swift */; };
+		4F7BFCF029D415C200AB1000 /* ViewIngridientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCEF29D415C200AB1000 /* ViewIngridientFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		4F7BFCE629D4154700AB1000 /* Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
 		4F7BFCE929D4156200AB1000 /* ViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRepresentable.swift; sourceTree = "<group>"; };
 		4F7BFCEB29D4158B00AB1000 /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		4F7BFCEF29D415C200AB1000 /* ViewIngridientFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewIngridientFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				4F7BFCE929D4156200AB1000 /* ViewRepresentable.swift */,
+				4F7BFCEF29D415C200AB1000 /* ViewIngridientFactory.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				4F7BFCEA29D4156200AB1000 /* ViewRepresentable.swift in Sources */,
 				4F7BFCDF29D414F600AB1000 /* Size.swift in Sources */,
 				4F7BFCE529D4152E00AB1000 /* Alpha.swift in Sources */,
+				4F7BFCF029D415C200AB1000 /* ViewIngridientFactory.swift in Sources */,
 				4F7BFCE729D4154700AB1000 /* Identifier.swift in Sources */,
 				4F7BFCE129D4150500AB1000 /* Position.swift in Sources */,
 				4F7BFCE329D4151D00AB1000 /* Color.swift in Sources */,
