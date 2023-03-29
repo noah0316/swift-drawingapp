@@ -25,3 +25,9 @@ final class Rectangle: ViewRepresentable {
         self.alpha = alpha
     }
 }
+
+extension Rectangle: CustomStringConvertible {
+    var description: String {
+        return "\(self.id), \(self.frame), \(self.color), \(self.alpha)"
+    }
+}
