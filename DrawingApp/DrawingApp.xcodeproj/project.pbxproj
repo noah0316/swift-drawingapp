@@ -19,6 +19,7 @@
 		4F7BFCEA29D4156200AB1000 /* ViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCE929D4156200AB1000 /* ViewRepresentable.swift */; };
 		4F7BFCEC29D4158B00AB1000 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCEB29D4158B00AB1000 /* Frame.swift */; };
 		4F7BFCF029D415C200AB1000 /* ViewIngridientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCEF29D415C200AB1000 /* ViewIngridientFactory.swift */; };
+		4F7BFCF229D4160400AB1000 /* ViewRepresentableFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCF129D4160400AB1000 /* ViewRepresentableFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		4F7BFCE929D4156200AB1000 /* ViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRepresentable.swift; sourceTree = "<group>"; };
 		4F7BFCEB29D4158B00AB1000 /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		4F7BFCEF29D415C200AB1000 /* ViewIngridientFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewIngridientFactory.swift; sourceTree = "<group>"; };
+		4F7BFCF129D4160400AB1000 /* ViewRepresentableFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRepresentableFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				4F7BFCE929D4156200AB1000 /* ViewRepresentable.swift */,
 				4F7BFCEF29D415C200AB1000 /* ViewIngridientFactory.swift */,
+				4F7BFCF129D4160400AB1000 /* ViewRepresentableFactory.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F7BFCF229D4160400AB1000 /* ViewRepresentableFactory.swift in Sources */,
 				4F7BFCEC29D4158B00AB1000 /* Frame.swift in Sources */,
 				4F7BFCC929D1860300AB1000 /* AppDelegate.swift in Sources */,
 				4F7BFCEA29D4156200AB1000 /* ViewRepresentable.swift in Sources */,
