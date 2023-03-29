@@ -23,6 +23,8 @@
 		4F7BFCF229D4160400AB1000 /* ViewRepresentableFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCF129D4160400AB1000 /* ViewRepresentableFactory.swift */; };
 		4F7BFCF429D4164A00AB1000 /* RandomViewIngridientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCF329D4164A00AB1000 /* RandomViewIngridientFactory.swift */; };
 		4F7BFCFA29D416AB00AB1000 /* Unique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCF929D416AB00AB1000 /* Unique.swift */; };
+		4F7BFCFF29D448C800AB1000 /* IdentifierFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCFE29D448C800AB1000 /* IdentifierFactory.swift */; };
+		4F7BFD0129D4497000AB1000 /* RandomIdentifierFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFD0029D4497000AB1000 /* RandomIdentifierFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		4F7BFCF129D4160400AB1000 /* ViewRepresentableFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRepresentableFactory.swift; sourceTree = "<group>"; };
 		4F7BFCF329D4164A00AB1000 /* RandomViewIngridientFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewIngridientFactory.swift; sourceTree = "<group>"; };
 		4F7BFCF929D416AB00AB1000 /* Unique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unique.swift; sourceTree = "<group>"; };
+		4F7BFCFE29D448C800AB1000 /* IdentifierFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifierFactory.swift; sourceTree = "<group>"; };
+		4F7BFD0029D4497000AB1000 /* RandomIdentifierFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomIdentifierFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 				4F7BFCE929D4156200AB1000 /* ViewRepresentable.swift */,
 				4F7BFCEF29D415C200AB1000 /* ViewIngridientFactory.swift */,
 				4F7BFCF129D4160400AB1000 /* ViewRepresentableFactory.swift */,
+				4F7BFCFE29D448C800AB1000 /* IdentifierFactory.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				4F7BFCF329D4164A00AB1000 /* RandomViewIngridientFactory.swift */,
+				4F7BFD0029D4497000AB1000 /* RandomIdentifierFactory.swift */,
 			);
 			path = Factory;
 			sourceTree = "<group>";
@@ -210,6 +216,8 @@
 				4F7BFCF229D4160400AB1000 /* ViewRepresentableFactory.swift in Sources */,
 				4F7BFCF429D4164A00AB1000 /* RandomViewIngridientFactory.swift in Sources */,
 				4F7BFCEC29D4158B00AB1000 /* Frame.swift in Sources */,
+				4F7BFCFF29D448C800AB1000 /* IdentifierFactory.swift in Sources */,
+				4F7BFD0129D4497000AB1000 /* RandomIdentifierFactory.swift in Sources */,
 				4F7BFCC929D1860300AB1000 /* AppDelegate.swift in Sources */,
 				4F7BFCEA29D4156200AB1000 /* ViewRepresentable.swift in Sources */,
 				4F7BFCDF29D414F600AB1000 /* Size.swift in Sources */,
