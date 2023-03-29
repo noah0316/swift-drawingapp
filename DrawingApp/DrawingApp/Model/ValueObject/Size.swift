@@ -11,3 +11,9 @@ struct Size {
     var width: Double
     var height: Double
 }
+
+extension Size: CustomStringConvertible {
+    var description: String {
+        return "W\(self.width), H\(self.height)"
+    }
+}

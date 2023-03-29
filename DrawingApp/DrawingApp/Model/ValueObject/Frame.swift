@@ -11,3 +11,9 @@ struct Frame {
     var size: Size
     var position: Position
 }
+
+extension Frame: CustomStringConvertible {
+    var description: String {
+        return "\(self.position), \(self.size)"
+    }
+}
