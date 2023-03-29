@@ -18,6 +18,20 @@ final class RandomViewIngridientFactory: ViewIngridientFactory {
     }
     
     func makeID() -> Identifier {
+        let minToken = 100
+        let maxToken = 999
+        
+        while true {
+            let firstToken = Int.random(in: minToken...maxToken)
+            let secondToken = Int.random(in: minToken...maxToken)
+            let thirdToken = Int.random(in: minToken...maxToken)
+            let identifierCandidate = Identifier(rawValue: "\(firstToken)-\(secondToken)-\(thirdToken)")
+            
+            if RandomViewIngridientFactory.uniqueIdentifiers.isUnique(identifierCandidate) {
+                RandomViewIngridientFactory.uniqueIdentifiers.insert(identifierCandidate)
+                return identifierCandidate
+            }
+        }
     }
     
     func makeFrame() -> Frame {
