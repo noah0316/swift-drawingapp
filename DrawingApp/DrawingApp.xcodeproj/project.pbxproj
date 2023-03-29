@@ -16,6 +16,7 @@
 		4F7BFCE329D4151D00AB1000 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCE229D4151D00AB1000 /* Color.swift */; };
 		4F7BFCE529D4152E00AB1000 /* Alpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCE429D4152E00AB1000 /* Alpha.swift */; };
 		4F7BFCE729D4154700AB1000 /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCE629D4154700AB1000 /* Identifier.swift */; };
+		4F7BFCEA29D4156200AB1000 /* ViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCE929D4156200AB1000 /* ViewRepresentable.swift */; };
 		4F7BFCEC29D4158B00AB1000 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCEB29D4158B00AB1000 /* Frame.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		4F7BFCE229D4151D00AB1000 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		4F7BFCE429D4152E00AB1000 /* Alpha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alpha.swift; sourceTree = "<group>"; };
 		4F7BFCE629D4154700AB1000 /* Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
+		4F7BFCE929D4156200AB1000 /* ViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRepresentable.swift; sourceTree = "<group>"; };
 		4F7BFCEB29D4158B00AB1000 /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 		4F7BFCDC29D18B4C00AB1000 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4F7BFCE829D4155500AB1000 /* Protocol */,
 				4F7BFCDD29D414DA00AB1000 /* ValueObject */,
 			);
 			path = Model;
@@ -93,6 +96,14 @@
 				4F7BFCEB29D4158B00AB1000 /* Frame.swift */,
 			);
 			path = ValueObject;
+			sourceTree = "<group>";
+		};
+		4F7BFCE829D4155500AB1000 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				4F7BFCE929D4156200AB1000 /* ViewRepresentable.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 			files = (
 				4F7BFCEC29D4158B00AB1000 /* Frame.swift in Sources */,
 				4F7BFCC929D1860300AB1000 /* AppDelegate.swift in Sources */,
+				4F7BFCEA29D4156200AB1000 /* ViewRepresentable.swift in Sources */,
 				4F7BFCDF29D414F600AB1000 /* Size.swift in Sources */,
 				4F7BFCE529D4152E00AB1000 /* Alpha.swift in Sources */,
 				4F7BFCE729D4154700AB1000 /* Identifier.swift in Sources */,
