@@ -35,6 +35,13 @@ final class RandomViewIngridientFactory: ViewIngridientFactory {
     }
     
     func makeFrame() -> Frame {
+        let size = Size(width: 150, height: 120)
+        let position = Position(
+            x: Double.random(in: self.minPosition.x...self.maxPosition.x),
+            y: Double.random(in: self.minPosition.y...self.maxPosition.y)
+        )
+        
+        return Frame(size: size, position: position)
     }
     
     func makeColor() -> Color {
