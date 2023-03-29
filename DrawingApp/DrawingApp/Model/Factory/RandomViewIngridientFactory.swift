@@ -45,6 +45,14 @@ final class RandomViewIngridientFactory: ViewIngridientFactory {
     }
     
     func makeColor() -> Color {
+        let minLightSource = 0
+        let maxLightSource = 255
+        
+        let red = Int.random(in: minLightSource...maxLightSource)
+        let green = Int.random(in: minLightSource...maxLightSource)
+        let blue = Int.random(in: minLightSource...maxLightSource)
+        
+        return Color(red: red, green: green, blue: blue)
     }
     
     func makeAlpha() -> Alpha {
