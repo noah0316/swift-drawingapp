@@ -27,6 +27,7 @@
 		4F7BFCFF29D448C800AB1000 /* IdentifierFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCFE29D448C800AB1000 /* IdentifierFactory.swift */; };
 		4F7BFD0129D4497000AB1000 /* RandomIdentifierFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFD0029D4497000AB1000 /* RandomIdentifierFactory.swift */; };
 		4F7BFD0429D4578C00AB1000 /* Loggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFD0329D4578C00AB1000 /* Loggable.swift */; };
+		4F7BFD0729D457CE00AB1000 /* SystemLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFD0629D457CE00AB1000 /* SystemLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		4F7BFCFE29D448C800AB1000 /* IdentifierFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifierFactory.swift; sourceTree = "<group>"; };
 		4F7BFD0029D4497000AB1000 /* RandomIdentifierFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomIdentifierFactory.swift; sourceTree = "<group>"; };
 		4F7BFD0329D4578C00AB1000 /* Loggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loggable.swift; sourceTree = "<group>"; };
+		4F7BFD0629D457CE00AB1000 /* SystemLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				4F7BFD0529D4579300AB1000 /* Protocol */,
+				4F7BFD0629D457CE00AB1000 /* SystemLogger.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				4F7BFCEE29D415A500AB1000 /* Rectangle.swift in Sources */,
 				4F7BFCE729D4154700AB1000 /* Identifier.swift in Sources */,
 				4F7BFCE129D4150500AB1000 /* Position.swift in Sources */,
+				4F7BFD0729D457CE00AB1000 /* SystemLogger.swift in Sources */,
 				4F7BFCE329D4151D00AB1000 /* Color.swift in Sources */,
 				4F7BFCF729D4167E00AB1000 /* RectangleFactory.swift in Sources */,
 				4F7BFCCB29D1860300AB1000 /* SceneDelegate.swift in Sources */,
