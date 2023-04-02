@@ -8,7 +8,11 @@
 import Foundation
 
 struct Identifier: Hashable {
-    let rawValue: String
+    private let rawValue: String
+    
+    init(rawValue: String) {
+        self.rawValue = rawValue
+    }
 }
 
 extension Identifier: CustomStringConvertible {
