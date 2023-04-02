@@ -11,8 +11,8 @@ final class RectangleFactory: ViewRepresentableFactory {
     private let viewIngridientFactory: ViewIngridientFactory
     private let identifierFactory: IdentifierFactory
 
-    init(ingridientFactory: ViewIngridientFactory, identifierFactory: IdentifierFactory) {
-        self.viewIngridientFactory = ingridientFactory
+    init(viewIngridientFactory: ViewIngridientFactory, identifierFactory: IdentifierFactory) {
+        self.viewIngridientFactory = viewIngridientFactory
         self.identifierFactory = identifierFactory
     }
     
