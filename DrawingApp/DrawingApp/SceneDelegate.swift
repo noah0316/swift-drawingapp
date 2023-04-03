@@ -23,7 +23,7 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let maxPosition = Position(x: UIScreen.main.bounds.maxX, y: UIScreen.main.bounds.maxY)
         let minPosition = Position(x: UIScreen.main.bounds.minX, y: UIScreen.main.bounds.minY)
         let rectangleFactory = RectangleFactory(
-            ingridientFactory: RandomViewIngridientFactory(maxPosition: maxPosition, minPosition: minPosition),
+            viewIngridientFactory: RandomViewIngridientFactory(maxPosition: maxPosition, minPosition: minPosition),
             identifierFactory: RandomIdentifierFactory()
         )
         window.rootViewController = ViewController(rectangleFactory: rectangleFactory, logger: SystemLogger())
