@@ -8,5 +8,5 @@
 import Foundation
 
 protocol ViewRepresentableFactory {
-    func makeViewRepresentable() -> ViewRepresentable
+    func makeViewRepresentable() -> ViewRepresentable?
 }

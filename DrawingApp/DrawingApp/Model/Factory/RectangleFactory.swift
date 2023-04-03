@@ -16,17 +16,20 @@ final class RectangleFactory: ViewRepresentableFactory {
         self.identifierFactory = identifierFactory
     }
     
-    func makeViewRepresentable() -> ViewRepresentable {
-        let id = self.identifierFactory.makeIdentifier()
+    func makeViewRepresentable() -> ViewRepresentable? {
         let frame = self.viewIngridientFactory.makeFrame()
         let color = self.viewIngridientFactory.makeColor()
         let alpha = self.viewIngridientFactory.makeAlpha()
         
-        return Rectangle(
-            id: id,
-            frame: frame,
-            color: color,
-            alpha: alpha
-        )
+        if let id = self.identifierFactory.makeIdentifier() {
+            return Rectangle(
+                id: id,
+                frame: frame,
+                color: color,
+                alpha: alpha
+            )
+        }
+        
+        return nil
     }
 }
