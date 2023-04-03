@@ -16,7 +16,7 @@ final class RandomViewIngridientFactory: ViewIngridientFactory {
         self.minPosition = minPosition
     }
     
-    func makeFrame() -> Frame {
+    func makeFrame() -> Frame? {
         let size = Size(width: 150, height: 120)
         let position = Position(
             x: Double.random(in: self.minPosition.x...self.maxPosition.x),
@@ -26,9 +26,9 @@ final class RandomViewIngridientFactory: ViewIngridientFactory {
         return Frame(size: size, position: position)
     }
     
-    func makeColor() -> Color {
-        let minLightSource = 0
-        let maxLightSource = 255
+    func makeColor() -> Color? {
+        let minLightSource = Color.Constant.minLightSource
+        let maxLightSource = Color.Constant.maxLightSource
         
         let red = Int.random(in: minLightSource...maxLightSource)
         let green = Int.random(in: minLightSource...maxLightSource)
@@ -37,10 +37,7 @@ final class RandomViewIngridientFactory: ViewIngridientFactory {
         return Color(red: red, green: green, blue: blue)
     }
     
-    func makeAlpha() -> Alpha {
-        let minAlphaLevel = 0
-        let maxAlphaLevel = 10
-        
-        return Alpha(level: Int.random(in: minAlphaLevel...maxAlphaLevel))
+    func makeAlpha() -> Alpha? {
+        return Alpha(level: Int.random(in: Alpha.Constant.minLevel...Alpha.Constant.maxLevel))
     }
 }

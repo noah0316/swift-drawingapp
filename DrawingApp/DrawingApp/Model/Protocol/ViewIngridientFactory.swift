@@ -8,7 +8,7 @@
 import Foundation
 
 protocol ViewIngridientFactory {
-    func makeFrame() -> Frame
-    func makeColor() -> Color
-    func makeAlpha() -> Alpha
+    func makeFrame() -> Frame?
+    func makeColor() -> Color?
+    func makeAlpha() -> Alpha?
 }
