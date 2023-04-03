@@ -17,7 +17,12 @@ final class ViewController: UIViewController {
         super.init(nibName: nil, bundle: nil)
     }
     
-    @available(*, unavailable)
+    init?(coder: NSCoder, rectangleFactory: ViewRepresentableFactory, logger: Loggable) {
+        self.rectangleFactory = rectangleFactory
+        self.logger = logger
+        super.init(coder: coder)
+    }
+    
     required init?(coder: NSCoder) {
         self.rectangleFactory = nil
         self.logger = nil
