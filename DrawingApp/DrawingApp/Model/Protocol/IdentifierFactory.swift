@@ -8,5 +8,5 @@
 import Foundation
 
 protocol IdentifierFactory {
-    func makeIdentifier() -> Identifier
+    func makeIdentifier() -> Identifier?
 }
