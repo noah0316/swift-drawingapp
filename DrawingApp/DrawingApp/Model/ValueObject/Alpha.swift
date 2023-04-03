@@ -11,7 +11,7 @@ struct Alpha {
     var level: Int
     
     init?(level: Int) {
-        guard level <= Alpha.Constant.minLevel && level <= Alpha.Constant.maxLevel
+        guard level >= Alpha.Constant.minLevel && level <= Alpha.Constant.maxLevel
         else { return nil }
         
         self.level = level
