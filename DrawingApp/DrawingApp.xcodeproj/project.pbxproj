@@ -23,7 +23,6 @@
 		4F7BFCF229D4160400AB1000 /* ViewRepresentableFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCF129D4160400AB1000 /* ViewRepresentableFactory.swift */; };
 		4F7BFCF429D4164A00AB1000 /* RandomViewIngridientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCF329D4164A00AB1000 /* RandomViewIngridientFactory.swift */; };
 		4F7BFCF729D4167E00AB1000 /* RectangleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCF629D4167E00AB1000 /* RectangleFactory.swift */; };
-		4F7BFCFA29D416AB00AB1000 /* Unique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCF929D416AB00AB1000 /* Unique.swift */; };
 		4F7BFCFD29D4172200AB1000 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCFC29D4172200AB1000 /* ViewController.swift */; };
 		4F7BFCFF29D448C800AB1000 /* IdentifierFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCFE29D448C800AB1000 /* IdentifierFactory.swift */; };
 		4F7BFD0129D4497000AB1000 /* RandomIdentifierFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFD0029D4497000AB1000 /* RandomIdentifierFactory.swift */; };
@@ -50,7 +49,6 @@
 		4F7BFCF129D4160400AB1000 /* ViewRepresentableFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRepresentableFactory.swift; sourceTree = "<group>"; };
 		4F7BFCF329D4164A00AB1000 /* RandomViewIngridientFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewIngridientFactory.swift; sourceTree = "<group>"; };
 		4F7BFCF629D4167E00AB1000 /* RectangleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleFactory.swift; sourceTree = "<group>"; };
-		4F7BFCF929D416AB00AB1000 /* Unique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unique.swift; sourceTree = "<group>"; };
 		4F7BFCFC29D4172200AB1000 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F7BFCFE29D448C800AB1000 /* IdentifierFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifierFactory.swift; sourceTree = "<group>"; };
 		4F7BFD0029D4497000AB1000 /* RandomIdentifierFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomIdentifierFactory.swift; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 		4F7BFCDC29D18B4C00AB1000 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4F7BFCF829D4169C00AB1000 /* Util */,
 				4F7BFCF529D4165200AB1000 /* Factory */,
 				4F7BFCE829D4155500AB1000 /* Protocol */,
 				4F7BFCDD29D414DA00AB1000 /* ValueObject */,
@@ -144,14 +141,6 @@
 				4F7BFD0029D4497000AB1000 /* RandomIdentifierFactory.swift */,
 			);
 			path = Factory;
-			sourceTree = "<group>";
-		};
-		4F7BFCF829D4169C00AB1000 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				4F7BFCF929D416AB00AB1000 /* Unique.swift */,
-			);
-			path = Util;
 			sourceTree = "<group>";
 		};
 		4F7BFCFB29D416FB00AB1000 /* ViewController */ = {
@@ -259,7 +248,6 @@
 				4F7BFCDF29D414F600AB1000 /* Size.swift in Sources */,
 				4F7BFCE529D4152E00AB1000 /* Alpha.swift in Sources */,
 				4F7BFD0429D4578C00AB1000 /* Loggable.swift in Sources */,
-				4F7BFCFA29D416AB00AB1000 /* Unique.swift in Sources */,
 				4F7BFCF029D415C200AB1000 /* ViewIngridientFactory.swift in Sources */,
 				4F7BFCEE29D415A500AB1000 /* Rectangle.swift in Sources */,
 				4F7BFCE729D4154700AB1000 /* Identifier.swift in Sources */,
