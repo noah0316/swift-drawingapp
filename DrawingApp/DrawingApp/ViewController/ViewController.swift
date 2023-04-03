@@ -26,14 +26,14 @@ final class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.makeRectangle(numberOfTimes: 4)
+        self.makeRectangle(numberOf: 4)
     }
     
-    private func makeRectangle(numberOfTimes : Int) {
+    private func makeRectangle(numberOf times : Int) {
         guard let rectangleFactory = self.rectangleFactory
         else { return }
         
-        for _ in 0..<numberOfTimes {
+        for _ in 0..<times {
             let rectangle = rectangleFactory.makeViewRepresentable()
             self.logger?.log(with: rectangle.description)
         }
