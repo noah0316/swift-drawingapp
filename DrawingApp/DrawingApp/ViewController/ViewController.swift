@@ -36,7 +36,9 @@ final class ViewController: UIViewController {
     
     private func makeRectangle(numberOf times : Int) {
         for _ in 0..<times {
-            let rectangle = rectangleFactory.makeViewRepresentable()
+            guard let rectangle = rectangleFactory?.makeViewRepresentable()
+            else { continue }
+            
             self.logger?.log(with: rectangle.description)
         }
     }
