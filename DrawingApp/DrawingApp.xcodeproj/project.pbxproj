@@ -28,6 +28,7 @@
 		4F7BFD0129D4497000AB1000 /* RandomIdentifierFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFD0029D4497000AB1000 /* RandomIdentifierFactory.swift */; };
 		4F7BFD0429D4578C00AB1000 /* Loggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFD0329D4578C00AB1000 /* Loggable.swift */; };
 		4F7BFD0729D457CE00AB1000 /* SystemLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFD0629D457CE00AB1000 /* SystemLogger.swift */; };
+		4FDF359129DE69B600F42C85 /* ViewContainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF359029DE69B600F42C85 /* ViewContainable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		4F7BFD0029D4497000AB1000 /* RandomIdentifierFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomIdentifierFactory.swift; sourceTree = "<group>"; };
 		4F7BFD0329D4578C00AB1000 /* Loggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loggable.swift; sourceTree = "<group>"; };
 		4F7BFD0629D457CE00AB1000 /* SystemLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemLogger.swift; sourceTree = "<group>"; };
+		4FDF359029DE69B600F42C85 /* ViewContainable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContainable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				4F7BFCEF29D415C200AB1000 /* ViewIngridientFactory.swift */,
 				4F7BFCF129D4160400AB1000 /* ViewRepresentableFactory.swift */,
 				4F7BFCFE29D448C800AB1000 /* IdentifierFactory.swift */,
+				4FDF359029DE69B600F42C85 /* ViewContainable.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				4F7BFCC929D1860300AB1000 /* AppDelegate.swift in Sources */,
 				4F7BFCEA29D4156200AB1000 /* ViewRepresentable.swift in Sources */,
 				4F7BFCDF29D414F600AB1000 /* Size.swift in Sources */,
+				4FDF359129DE69B600F42C85 /* ViewContainable.swift in Sources */,
 				4F7BFCE529D4152E00AB1000 /* Alpha.swift in Sources */,
 				4F7BFD0429D4578C00AB1000 /* Loggable.swift in Sources */,
 				4F7BFCF029D415C200AB1000 /* ViewIngridientFactory.swift in Sources */,
