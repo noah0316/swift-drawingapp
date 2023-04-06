@@ -28,6 +28,7 @@
 		4F7BFD0129D4497000AB1000 /* RandomIdentifierFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFD0029D4497000AB1000 /* RandomIdentifierFactory.swift */; };
 		4F7BFD0429D4578C00AB1000 /* Loggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFD0329D4578C00AB1000 /* Loggable.swift */; };
 		4F7BFD0729D457CE00AB1000 /* SystemLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFD0629D457CE00AB1000 /* SystemLogger.swift */; };
+		4FDF358F29DBD44A00F42C85 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF358E29DBD44A00F42C85 /* Plane.swift */; };
 		4FDF359129DE69B600F42C85 /* ViewContainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF359029DE69B600F42C85 /* ViewContainable.swift */; };
 		4FDF359329DE6BC800F42C85 /* Countable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF359229DE6BC800F42C85 /* Countable.swift */; };
 		4FDF359529DE6C7100F42C85 /* RandomAccessible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF359429DE6C7100F42C85 /* RandomAccessible.swift */; };
@@ -58,6 +59,7 @@
 		4F7BFD0029D4497000AB1000 /* RandomIdentifierFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomIdentifierFactory.swift; sourceTree = "<group>"; };
 		4F7BFD0329D4578C00AB1000 /* Loggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loggable.swift; sourceTree = "<group>"; };
 		4F7BFD0629D457CE00AB1000 /* SystemLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemLogger.swift; sourceTree = "<group>"; };
+		4FDF358E29DBD44A00F42C85 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
 		4FDF359029DE69B600F42C85 /* ViewContainable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContainable.swift; sourceTree = "<group>"; };
 		4FDF359229DE6BC800F42C85 /* Countable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countable.swift; sourceTree = "<group>"; };
 		4FDF359429DE6C7100F42C85 /* RandomAccessible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAccessible.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				4F7BFCE829D4155500AB1000 /* Protocol */,
 				4F7BFCDD29D414DA00AB1000 /* ValueObject */,
 				4F7BFCED29D415A500AB1000 /* Rectangle.swift */,
+				4FDF358E29DBD44A00F42C85 /* Plane.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			files = (
 				4F7BFCF229D4160400AB1000 /* ViewRepresentableFactory.swift in Sources */,
 				4F7BFCF429D4164A00AB1000 /* RandomViewIngridientFactory.swift in Sources */,
+				4FDF358F29DBD44A00F42C85 /* Plane.swift in Sources */,
 				4F7BFCEC29D4158B00AB1000 /* Frame.swift in Sources */,
 				4F7BFCFF29D448C800AB1000 /* IdentifierFactory.swift in Sources */,
 				4F7BFD0129D4497000AB1000 /* RandomIdentifierFactory.swift in Sources */,
