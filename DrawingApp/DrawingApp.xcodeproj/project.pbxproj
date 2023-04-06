@@ -31,6 +31,7 @@
 		4FDF359129DE69B600F42C85 /* ViewContainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF359029DE69B600F42C85 /* ViewContainable.swift */; };
 		4FDF359329DE6BC800F42C85 /* Countable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF359229DE6BC800F42C85 /* Countable.swift */; };
 		4FDF359529DE6C7100F42C85 /* RandomAccessible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF359429DE6C7100F42C85 /* RandomAccessible.swift */; };
+		4FDF359929DEBEC000F42C85 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF359829DEBEC000F42C85 /* Identifiable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		4FDF359029DE69B600F42C85 /* ViewContainable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContainable.swift; sourceTree = "<group>"; };
 		4FDF359229DE6BC800F42C85 /* Countable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countable.swift; sourceTree = "<group>"; };
 		4FDF359429DE6C7100F42C85 /* RandomAccessible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAccessible.swift; sourceTree = "<group>"; };
+		4FDF359829DEBEC000F42C85 /* Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				4FDF359029DE69B600F42C85 /* ViewContainable.swift */,
 				4FDF359229DE6BC800F42C85 /* Countable.swift */,
 				4FDF359429DE6C7100F42C85 /* RandomAccessible.swift */,
+				4FDF359829DEBEC000F42C85 /* Identifiable.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				4F7BFCE529D4152E00AB1000 /* Alpha.swift in Sources */,
 				4FDF359529DE6C7100F42C85 /* RandomAccessible.swift in Sources */,
 				4F7BFD0429D4578C00AB1000 /* Loggable.swift in Sources */,
+				4FDF359929DEBEC000F42C85 /* Identifiable.swift in Sources */,
 				4F7BFCF029D415C200AB1000 /* ViewIngridientFactory.swift in Sources */,
 				4F7BFCEE29D415A500AB1000 /* Rectangle.swift in Sources */,
 				4F7BFCE729D4154700AB1000 /* Identifier.swift in Sources */,
