@@ -12,4 +12,5 @@ protocol ViewContainable: Countable, RandomAccessible {
     func append(_ view: ViewRepresentable)
     /// reference: https://developer.apple.com/documentation/swift/array/contains(_:)
     func contains(_ view: ViewRepresentable) -> Bool
+    func contains(at position: Position) -> Bool
 }
