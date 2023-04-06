@@ -29,6 +29,7 @@
 		4F7BFD0429D4578C00AB1000 /* Loggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFD0329D4578C00AB1000 /* Loggable.swift */; };
 		4F7BFD0729D457CE00AB1000 /* SystemLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFD0629D457CE00AB1000 /* SystemLogger.swift */; };
 		4FDF359129DE69B600F42C85 /* ViewContainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF359029DE69B600F42C85 /* ViewContainable.swift */; };
+		4FDF359329DE6BC800F42C85 /* Countable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF359229DE6BC800F42C85 /* Countable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		4F7BFD0329D4578C00AB1000 /* Loggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loggable.swift; sourceTree = "<group>"; };
 		4F7BFD0629D457CE00AB1000 /* SystemLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemLogger.swift; sourceTree = "<group>"; };
 		4FDF359029DE69B600F42C85 /* ViewContainable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContainable.swift; sourceTree = "<group>"; };
+		4FDF359229DE6BC800F42C85 /* Countable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				4F7BFCF129D4160400AB1000 /* ViewRepresentableFactory.swift */,
 				4F7BFCFE29D448C800AB1000 /* IdentifierFactory.swift */,
 				4FDF359029DE69B600F42C85 /* ViewContainable.swift */,
+				4FDF359229DE6BC800F42C85 /* Countable.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				4F7BFCF029D415C200AB1000 /* ViewIngridientFactory.swift in Sources */,
 				4F7BFCEE29D415A500AB1000 /* Rectangle.swift in Sources */,
 				4F7BFCE729D4154700AB1000 /* Identifier.swift in Sources */,
+				4FDF359329DE6BC800F42C85 /* Countable.swift in Sources */,
 				4F7BFCE129D4150500AB1000 /* Position.swift in Sources */,
 				4F7BFD0729D457CE00AB1000 /* SystemLogger.swift in Sources */,
 				4F7BFCE329D4151D00AB1000 /* Color.swift in Sources */,
