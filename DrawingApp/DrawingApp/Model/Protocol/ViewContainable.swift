@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol ViewContainable {
+protocol ViewContainable: Countable, RandomAccessible {
     /// reference: https://developer.apple.com/documentation/swift/array/append(_:)-1ytnt
     func append(_ view: ViewRepresentable)
     /// reference: https://developer.apple.com/documentation/swift/array/contains(_:)
