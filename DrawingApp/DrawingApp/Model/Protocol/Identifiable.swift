@@ -12,4 +12,3 @@ import Foundation
 protocol Identifiable {
     var id: Identifier { get }
 }
-
