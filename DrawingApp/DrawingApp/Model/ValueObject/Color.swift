@@ -14,7 +14,7 @@ struct Color {
     
     init?(red: Int, green: Int, blue: Int) {
         guard [red, green, blue].allSatisfy({ lightSource in
-            lightSource >= Color.Constant.minLightSource && lightSource <= Color.Constant.maxLightSource
+            (Color.Constant.minLightSource...Color.Constant.maxLightSource).contains(lightSource)
         })
         else { return nil }
         
