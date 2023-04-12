@@ -8,8 +8,8 @@
 import Foundation
 
 struct Position: Equatable {
-    var x: Double
-    var y: Double
+    let x: Double
+    let y: Double
 }
 
 extension Position: CustomStringConvertible {

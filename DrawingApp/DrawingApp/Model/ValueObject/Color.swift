@@ -8,9 +8,9 @@
 import Foundation
 
 struct Color {
-    var red: Int
-    var green: Int
-    var blue: Int
+    let red: Int
+    let green: Int
+    let blue: Int
     
     init?(red: Int, green: Int, blue: Int) {
         guard [red, green, blue].allSatisfy({ lightSource in

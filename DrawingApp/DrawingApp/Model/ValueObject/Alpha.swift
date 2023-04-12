@@ -8,7 +8,7 @@
 import Foundation
 
 struct Alpha {
-    var level: Int
+    let level: Int
     
     init?(level: Int) {
         guard (Alpha.Constant.minLevel...Alpha.Constant.maxLevel).contains(level)

@@ -8,8 +8,8 @@
 import Foundation
 
 struct Frame {
-    var size: Size
-    var position: Position
+    let size: Size
+    let position: Position
     
     init?(size: Size?, position: Position) {
         guard let size

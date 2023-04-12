@@ -8,8 +8,8 @@
 import Foundation
 
 struct Size {
-    var width: Double
-    var height: Double
+    let width: Double
+    let height: Double
     
     init?(width: Double, height: Double) {
         guard [width, height].allSatisfy({ element in
