@@ -14,6 +14,9 @@ final class ViewController: UIViewController {
     // MARK: - UI properties
     
     @UseAutoLayout private var canvasArea: UIView = UIView()
+    @UseAutoLayout private var attributesControlView: AttributesControlView = AttributesControlView()
+    
+    
     init(rectangleFactory: ViewRepresentableFactory, logger: Loggable) {
         self.rectangleFactory = rectangleFactory
         self.logger = logger
@@ -44,6 +47,7 @@ final class ViewController: UIViewController {
     
     private func setupLayoutConstraints() {
         self.setupCanvasAreaLayoutConstraints()
+        self.setupAttributesControlViewLayoutConstraints()
     }
 }
 
@@ -67,5 +71,16 @@ extension ViewController {
         )
     }
     
+    private func setupAttributesControlViewLayoutConstraints() {
+        self.view.addSubview(self.attributesControlView)
+        
+        NSLayoutConstraint.activate(
+            [
+                self.attributesControlView.leadingAnchor.constraint(equalTo: self.canvasArea.trailingAnchor),
+                self.attributesControlView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor),
+                self.attributesControlView.topAnchor.constraint(equalTo: self.view.topAnchor),
+                self.attributesControlView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor)
+            ]
+        )
     }
 }
