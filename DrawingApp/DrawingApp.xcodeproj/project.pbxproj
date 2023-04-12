@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F01D58829E50A140096A534 /* UseAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F01D58729E50A140096A534 /* UseAutoLayout.swift */; };
 		4F7BFCC929D1860300AB1000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCC829D1860300AB1000 /* AppDelegate.swift */; };
 		4F7BFCCB29D1860300AB1000 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCCA29D1860300AB1000 /* SceneDelegate.swift */; };
 		4F7BFCD229D1860600AB1000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7BFCD129D1860600AB1000 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F01D58729E50A140096A534 /* UseAutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseAutoLayout.swift; sourceTree = "<group>"; };
 		4F7BFCC529D1860300AB1000 /* DrawingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7BFCC829D1860300AB1000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F7BFCCA29D1860300AB1000 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			children = (
 				4F7BFD0529D4579300AB1000 /* Protocol */,
 				4F7BFD0629D457CE00AB1000 /* SystemLogger.swift */,
+				4F01D58729E50A140096A534 /* UseAutoLayout.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				4F7BFCEE29D415A500AB1000 /* Rectangle.swift in Sources */,
 				4F7BFCE729D4154700AB1000 /* Identifier.swift in Sources */,
 				4FDF359329DE6BC800F42C85 /* Countable.swift in Sources */,
+				4F01D58829E50A140096A534 /* UseAutoLayout.swift in Sources */,
 				4F7BFCE129D4150500AB1000 /* Position.swift in Sources */,
 				4F7BFD0729D457CE00AB1000 /* SystemLogger.swift in Sources */,
 				4F7BFCE329D4151D00AB1000 /* Color.swift in Sources */,
