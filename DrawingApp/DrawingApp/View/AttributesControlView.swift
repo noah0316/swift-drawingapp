@@ -64,7 +64,7 @@ extension AttributesControlView {
     
     private func setupBackgroundColorControlUIAttributes() {
         var backgroundColorControlAttributedTitle = AttributedString(stringLiteral: StringLiteral.BackgroundColorControl.description)
-        backgroundColorControlAttributedTitle.font = .systemFont(ofSize: SizeLiteral.Font.alphaControlDescription1, weight: .bold)
+        backgroundColorControlAttributedTitle.font = .systemFont(ofSize: SizeLiteral.Font.alphaControlDescription, weight: .bold)
         
         var backgroundColorControlConfiguration = UIButton.Configuration.plain()
         backgroundColorControlConfiguration.attributedTitle = backgroundColorControlAttributedTitle
