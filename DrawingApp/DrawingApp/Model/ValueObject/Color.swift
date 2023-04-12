@@ -8,13 +8,13 @@
 import Foundation
 
 struct Color {
-    var red: Int
-    var green: Int
-    var blue: Int
+    let red: Int
+    let green: Int
+    let blue: Int
     
     init?(red: Int, green: Int, blue: Int) {
         guard [red, green, blue].allSatisfy({ lightSource in
-            lightSource >= Color.Constant.minLightSource && lightSource <= Color.Constant.maxLightSource
+            (Color.Constant.minLightSource...Color.Constant.maxLightSource).contains(lightSource)
         })
         else { return nil }
         

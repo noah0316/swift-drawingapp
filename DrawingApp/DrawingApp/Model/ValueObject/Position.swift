@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct Position {
-    var x: Double
-    var y: Double
+struct Position: Equatable {
+    let x: Double
+    let y: Double
 }
 
 extension Position: CustomStringConvertible {

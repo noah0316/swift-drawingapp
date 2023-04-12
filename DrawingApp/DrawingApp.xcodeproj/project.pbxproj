@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F01D58829E50A140096A534 /* UseAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F01D58729E50A140096A534 /* UseAutoLayout.swift */; };
+		4F217D2629E67EF0005E700F /* AttributesControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F217D2529E67EF0005E700F /* AttributesControlView.swift */; };
+		4F217D2A29E68743005E700F /* StringLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F217D2929E68743005E700F /* StringLiteral.swift */; };
+		4F217D2D29E68862005E700F /* SizeLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F217D2C29E68862005E700F /* SizeLiteral.swift */; };
 		4F7BFCC929D1860300AB1000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCC829D1860300AB1000 /* AppDelegate.swift */; };
 		4F7BFCCB29D1860300AB1000 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCCA29D1860300AB1000 /* SceneDelegate.swift */; };
 		4F7BFCD229D1860600AB1000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7BFCD129D1860600AB1000 /* Assets.xcassets */; };
@@ -28,9 +32,18 @@
 		4F7BFD0129D4497000AB1000 /* RandomIdentifierFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFD0029D4497000AB1000 /* RandomIdentifierFactory.swift */; };
 		4F7BFD0429D4578C00AB1000 /* Loggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFD0329D4578C00AB1000 /* Loggable.swift */; };
 		4F7BFD0729D457CE00AB1000 /* SystemLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFD0629D457CE00AB1000 /* SystemLogger.swift */; };
+		4FDF358F29DBD44A00F42C85 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF358E29DBD44A00F42C85 /* Plane.swift */; };
+		4FDF359129DE69B600F42C85 /* ViewContainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF359029DE69B600F42C85 /* ViewContainable.swift */; };
+		4FDF359329DE6BC800F42C85 /* Countable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF359229DE6BC800F42C85 /* Countable.swift */; };
+		4FDF359529DE6C7100F42C85 /* RandomAccessible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF359429DE6C7100F42C85 /* RandomAccessible.swift */; };
+		4FDF359929DEBEC000F42C85 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF359829DEBEC000F42C85 /* Identifiable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F01D58729E50A140096A534 /* UseAutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseAutoLayout.swift; sourceTree = "<group>"; };
+		4F217D2529E67EF0005E700F /* AttributesControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributesControlView.swift; sourceTree = "<group>"; };
+		4F217D2929E68743005E700F /* StringLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringLiteral.swift; sourceTree = "<group>"; };
+		4F217D2C29E68862005E700F /* SizeLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeLiteral.swift; sourceTree = "<group>"; };
 		4F7BFCC529D1860300AB1000 /* DrawingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7BFCC829D1860300AB1000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F7BFCCA29D1860300AB1000 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +67,11 @@
 		4F7BFD0029D4497000AB1000 /* RandomIdentifierFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomIdentifierFactory.swift; sourceTree = "<group>"; };
 		4F7BFD0329D4578C00AB1000 /* Loggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loggable.swift; sourceTree = "<group>"; };
 		4F7BFD0629D457CE00AB1000 /* SystemLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemLogger.swift; sourceTree = "<group>"; };
+		4FDF358E29DBD44A00F42C85 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		4FDF359029DE69B600F42C85 /* ViewContainable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContainable.swift; sourceTree = "<group>"; };
+		4FDF359229DE6BC800F42C85 /* Countable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countable.swift; sourceTree = "<group>"; };
+		4FDF359429DE6C7100F42C85 /* RandomAccessible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAccessible.swift; sourceTree = "<group>"; };
+		4FDF359829DEBEC000F42C85 /* Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +85,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F217D2429E67E9B005E700F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F217D2529E67EF0005E700F /* AttributesControlView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4F217D2729E68704005E700F /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				4F217D2829E6873A005E700F /* Literal */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		4F217D2829E6873A005E700F /* Literal */ = {
+			isa = PBXGroup;
+			children = (
+				4F217D2929E68743005E700F /* StringLiteral.swift */,
+				4F217D2C29E68862005E700F /* SizeLiteral.swift */,
+			);
+			path = Literal;
+			sourceTree = "<group>";
+		};
 		4F7BFCBC29D1860300AB1000 = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +129,9 @@
 		4F7BFCC729D1860300AB1000 /* DrawingApp */ = {
 			isa = PBXGroup;
 			children = (
+				4F217D2729E68704005E700F /* Global */,
 				4F7BFD0229D4578100AB1000 /* Util */,
+				4F217D2429E67E9B005E700F /* View */,
 				4F7BFCFB29D416FB00AB1000 /* ViewController */,
 				4F7BFCDC29D18B4C00AB1000 /* Model */,
 				4F7BFCC829D1860300AB1000 /* AppDelegate.swift */,
@@ -105,6 +150,7 @@
 				4F7BFCE829D4155500AB1000 /* Protocol */,
 				4F7BFCDD29D414DA00AB1000 /* ValueObject */,
 				4F7BFCED29D415A500AB1000 /* Rectangle.swift */,
+				4FDF358E29DBD44A00F42C85 /* Plane.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -129,6 +175,10 @@
 				4F7BFCEF29D415C200AB1000 /* ViewIngridientFactory.swift */,
 				4F7BFCF129D4160400AB1000 /* ViewRepresentableFactory.swift */,
 				4F7BFCFE29D448C800AB1000 /* IdentifierFactory.swift */,
+				4FDF359029DE69B600F42C85 /* ViewContainable.swift */,
+				4FDF359229DE6BC800F42C85 /* Countable.swift */,
+				4FDF359429DE6C7100F42C85 /* RandomAccessible.swift */,
+				4FDF359829DEBEC000F42C85 /* Identifiable.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -156,6 +206,7 @@
 			children = (
 				4F7BFD0529D4579300AB1000 /* Protocol */,
 				4F7BFD0629D457CE00AB1000 /* SystemLogger.swift */,
+				4F01D58729E50A140096A534 /* UseAutoLayout.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -240,18 +291,27 @@
 			files = (
 				4F7BFCF229D4160400AB1000 /* ViewRepresentableFactory.swift in Sources */,
 				4F7BFCF429D4164A00AB1000 /* RandomViewIngridientFactory.swift in Sources */,
+				4FDF358F29DBD44A00F42C85 /* Plane.swift in Sources */,
 				4F7BFCEC29D4158B00AB1000 /* Frame.swift in Sources */,
+				4F217D2D29E68862005E700F /* SizeLiteral.swift in Sources */,
 				4F7BFCFF29D448C800AB1000 /* IdentifierFactory.swift in Sources */,
 				4F7BFD0129D4497000AB1000 /* RandomIdentifierFactory.swift in Sources */,
 				4F7BFCC929D1860300AB1000 /* AppDelegate.swift in Sources */,
 				4F7BFCEA29D4156200AB1000 /* ViewRepresentable.swift in Sources */,
 				4F7BFCDF29D414F600AB1000 /* Size.swift in Sources */,
+				4FDF359129DE69B600F42C85 /* ViewContainable.swift in Sources */,
 				4F7BFCE529D4152E00AB1000 /* Alpha.swift in Sources */,
+				4FDF359529DE6C7100F42C85 /* RandomAccessible.swift in Sources */,
 				4F7BFD0429D4578C00AB1000 /* Loggable.swift in Sources */,
+				4F217D2629E67EF0005E700F /* AttributesControlView.swift in Sources */,
+				4FDF359929DEBEC000F42C85 /* Identifiable.swift in Sources */,
 				4F7BFCF029D415C200AB1000 /* ViewIngridientFactory.swift in Sources */,
 				4F7BFCEE29D415A500AB1000 /* Rectangle.swift in Sources */,
 				4F7BFCE729D4154700AB1000 /* Identifier.swift in Sources */,
+				4FDF359329DE6BC800F42C85 /* Countable.swift in Sources */,
+				4F01D58829E50A140096A534 /* UseAutoLayout.swift in Sources */,
 				4F7BFCE129D4150500AB1000 /* Position.swift in Sources */,
+				4F217D2A29E68743005E700F /* StringLiteral.swift in Sources */,
 				4F7BFD0729D457CE00AB1000 /* SystemLogger.swift in Sources */,
 				4F7BFCE329D4151D00AB1000 /* Color.swift in Sources */,
 				4F7BFCF729D4167E00AB1000 /* RectangleFactory.swift in Sources */,

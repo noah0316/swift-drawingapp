@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol ViewRepresentable: CustomStringConvertible {
+protocol ViewRepresentable: CustomStringConvertible, DrawingApp.Identifiable {
     var frame: Frame { get set }
     var color: Color { get set }
     var alpha: Alpha { get set }

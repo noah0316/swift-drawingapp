@@ -8,10 +8,10 @@
 import Foundation
 
 struct Alpha {
-    var level: Int
+    let level: Int
     
     init?(level: Int) {
-        guard level >= Alpha.Constant.minLevel && level <= Alpha.Constant.maxLevel
+        guard (Alpha.Constant.minLevel...Alpha.Constant.maxLevel).contains(level)
         else { return nil }
         
         self.level = level

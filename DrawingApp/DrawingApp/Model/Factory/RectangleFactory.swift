@@ -23,7 +23,6 @@ final class RectangleFactory: ViewRepresentableFactory {
               let alpha = self.viewIngridientFactory.makeAlpha()
         else { return nil }
         
-        
         return Rectangle(
             id: id,
             frame: frame,
