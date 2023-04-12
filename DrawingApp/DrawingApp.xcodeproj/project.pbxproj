@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4F01D58829E50A140096A534 /* UseAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F01D58729E50A140096A534 /* UseAutoLayout.swift */; };
+		4F217D2A29E68743005E700F /* StringLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F217D2929E68743005E700F /* StringLiteral.swift */; };
 		4F217D2D29E68862005E700F /* SizeLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F217D2C29E68862005E700F /* SizeLiteral.swift */; };
 		4F7BFCC929D1860300AB1000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCC829D1860300AB1000 /* AppDelegate.swift */; };
 		4F7BFCCB29D1860300AB1000 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BFCCA29D1860300AB1000 /* SceneDelegate.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		4F01D58729E50A140096A534 /* UseAutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseAutoLayout.swift; sourceTree = "<group>"; };
+		4F217D2929E68743005E700F /* StringLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringLiteral.swift; sourceTree = "<group>"; };
 		4F217D2C29E68862005E700F /* SizeLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeLiteral.swift; sourceTree = "<group>"; };
 		4F7BFCC529D1860300AB1000 /* DrawingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7BFCC829D1860300AB1000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 		4F217D2829E6873A005E700F /* Literal */ = {
 			isa = PBXGroup;
 			children = (
+				4F217D2929E68743005E700F /* StringLiteral.swift */,
 				4F217D2C29E68862005E700F /* SizeLiteral.swift */,
 			);
 			path = Literal;
@@ -296,6 +299,7 @@
 				4FDF359329DE6BC800F42C85 /* Countable.swift in Sources */,
 				4F01D58829E50A140096A534 /* UseAutoLayout.swift in Sources */,
 				4F7BFCE129D4150500AB1000 /* Position.swift in Sources */,
+				4F217D2A29E68743005E700F /* StringLiteral.swift in Sources */,
 				4F7BFD0729D457CE00AB1000 /* SystemLogger.swift in Sources */,
 				4F7BFCE329D4151D00AB1000 /* Color.swift in Sources */,
 				4F7BFCF729D4167E00AB1000 /* RectangleFactory.swift in Sources */,
