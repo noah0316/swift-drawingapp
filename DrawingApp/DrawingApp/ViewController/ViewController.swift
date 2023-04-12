@@ -14,6 +14,7 @@ final class ViewController: UIViewController {
     // MARK: - UI properties
     
     @UseAutoLayout private var canvasArea: UIView = UIView()
+    @UseAutoLayout private var addRectangleButton: UIButton = UIButton()
     @UseAutoLayout private var attributesControlView: AttributesControlView = AttributesControlView()
     
     
@@ -43,10 +44,12 @@ final class ViewController: UIViewController {
     
     private func setupUIAtrributes() {
         self.setupCanvasAreaUIAttributes()
+        self.setupAddRectangleButtonUIAttributes()
     }
     
     private func setupLayoutConstraints() {
         self.setupCanvasAreaLayoutConstraints()
+        self.setupAddRectangleButtonLayoutConstraints()
         self.setupAttributesControlViewLayoutConstraints()
     }
 }
@@ -54,6 +57,18 @@ final class ViewController: UIViewController {
 extension ViewController {
     private func setupCanvasAreaUIAttributes() {
         self.canvasArea.backgroundColor = .white
+    }
+    
+    private func setupAddRectangleButtonUIAttributes() {
+        var addRectangleButtonConfiguration = UIButton.Configuration.bordered()
+        addRectangleButtonConfiguration.image = UIImage(systemName: "rectangle")
+        addRectangleButtonConfiguration.baseForegroundColor = .black
+        addRectangleButtonConfiguration.imagePlacement = .top
+        addRectangleButtonConfiguration.imagePadding = 20
+        addRectangleButtonConfiguration.title = StringLiteral.AddRectangleButton.title
+        addRectangleButtonConfiguration.baseBackgroundColor = .systemGray6
+        
+        self.addRectangleButton.configuration = addRectangleButtonConfiguration
     }
 }
 
@@ -83,4 +98,17 @@ extension ViewController {
             ]
         )
     }
+    
+    private func setupAddRectangleButtonLayoutConstraints() {
+       self.view.addSubview(self.addRectangleButton)
+       
+       NSLayoutConstraint.activate(
+           [
+               self.addRectangleButton.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor),
+               self.addRectangleButton.centerXAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.centerXAnchor),
+               self.addRectangleButton.widthAnchor.constraint(equalToConstant: 120),
+               self.addRectangleButton.heightAnchor.constraint(equalToConstant: 100)
+           ]
+       )
+   }
 }
